@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.wxml": "xml",
+        "*.wxss": "postcss",
+        "ostream": "cpp"
+    }
+}
