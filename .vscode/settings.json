@@ -1,7 +1,13 @@
 {
     "files.associations": {
-        "*.wxml": "xml",
-        "*.wxss": "postcss",
-        "ostream": "cpp"
+      "*.vue": "vue",
+      "*.wxml": "xml",
+      "*.wxss": "postcss",
+      "ostream": "cpp",
+      "iostream": "cpp",
+      "iosfwd": "cpp",
+      "algorithm": "cpp",
+      "chrono": "cpp",
+      "limits": "cpp"
     }
-}
+  }

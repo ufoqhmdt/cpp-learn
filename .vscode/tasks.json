@@ -11,7 +11,7 @@
     {
       "label": "echo",
       "type": "shell",
-      "command": "g++ -g test.cpp -o test",
+      "command": "g++ -g test3.cpp -o test3",
       "group": {
         "kind": "build",
         "isDefault": true
