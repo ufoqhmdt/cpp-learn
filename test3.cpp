@@ -12,7 +12,8 @@ private:
 public:
   void Setxy(int a, int b);
   void Move(int a, int b);
-  void Display(){
+  void Display()
+  {
     cout << Getx() << "," << Gety() << endl;
   };
   int Getx();
@@ -42,5 +43,12 @@ int Point::Gety()
 
 int main(int argc, char const *argv[])
 {
+  Point A, B;
+  Point *p = &A;
+  Point &R = B;
+  A.Setxy(23, 99);
+  B.Setxy(231, 991);
+  p->Display();
+  R.Display();
   return 0;
 }
