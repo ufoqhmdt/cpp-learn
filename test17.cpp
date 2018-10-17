@@ -78,13 +78,16 @@ int main(int argc, char const *argv[])
   // infile.close();
 
   int i = 0;
+  cout << strlen(p) << " strlen" << endl;
   for (; i < strlen(p) + 8; i++)
   {
+    cout << i << endl;
     getText >> ch[i];
+    // ch[i] = '\0';
+    cout << ch << endl;
   }
-  ch[i] = '\0';
-  getText.close();
   cout << ch;
+  getText.close();
 
   // Sales_item item(string("0-201-78345-X"), 2, 25.00);
 

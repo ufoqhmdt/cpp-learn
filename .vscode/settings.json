@@ -9,6 +9,7 @@
       "algorithm": "cpp",
       "chrono": "cpp",
       "limits": "cpp",
-      "new": "cpp"
+      "new": "cpp",
+      "vector": "cpp"
     }
   }

@@ -11,7 +11,8 @@
     {
       "label": "echo",
       "type": "shell",
-      "command": "g++ -g test16.cpp -o test16",
+      "command": "g++ -g samples/student.cpp -o main",
+      // "command": "g++ -g test17.cpp -o test17",
       "group": {
         "kind": "build",
         "isDefault": true
