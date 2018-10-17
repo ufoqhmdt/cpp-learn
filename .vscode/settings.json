@@ -1,13 +1,14 @@
 {
     "files.associations": {
-      "*.vue": "vue",
       "*.wxml": "xml",
       "*.wxss": "postcss",
+      "*.vue": "vue",
       "ostream": "cpp",
       "iostream": "cpp",
       "iosfwd": "cpp",
       "algorithm": "cpp",
       "chrono": "cpp",
-      "limits": "cpp"
+      "limits": "cpp",
+      "new": "cpp"
     }
   }
